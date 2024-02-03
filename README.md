@@ -11,10 +11,12 @@
 
 ## 入門指南:
 1. 複製存儲庫: `git clone https://github.com/OpenLinux21/kernel.git`
-2. 從 `releases` 部分中選擇所需的內核版本。
-3. 下載並安裝適用於您的發行版的預先編譯二進制文件。
+2. 運行build.sh開始編譯
+3. 編譯結束後在arch/<ARCH>/boot/複製內核或者直接make install
+5. 或者從 `releases` 部分中選擇所需的內核版本。
+6. 下載並安裝適用於您的發行版的預先編譯二進制文件。
 
 ## 使用示例:
-下載releases中的Image.gz,bzlmage文件（不要選錯架構哦
+下載releases中的Image.gz或者是bzlmage文件（不要選錯架構哦
 
 請隨意探索並充分利用這個存儲庫的優勢。如果遇到任何問題或有建議，請毋需猶豫地提出問題。祝您編碼愉快！ 👩‍💻👨‍💻
